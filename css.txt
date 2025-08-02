@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Body */
+
+body {
+    background-color:  #75badf ;
+}
+
+
+/* Header */
+
+header {
+    border-bottom: 1px solid  black;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+/* Main*/
+
+main{
+    margin: 20px;
+    padding: 20px;
+}
+
+h1
+h2{
+    text-align: center;
+    text-decoration:underline ;
+    margin: 20px 0px;
+}
+
+/*Footer*/
+footer{
+    margin: 20px;
+    padding: 20px;
+    border-top: 1px solid black;
+    text-align: center;
+
+}
+    
+/*maquinas*/
+
+.contenedormaquinas {
+    margin: 20px;
+    border: 4px solid yellowgreen;
+    border-radius: 10px;
+}
+
+.imgmaquinas{
+    display: block; 
+    width: 100%;
+    height: auto;
+}
+
+.contenedormaquinas p{
+    background-color: black;
+    color: #75badf;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/*Iframe*/
+iframe{
+    display: block;
+    margin: auto;
+}
+
+
+/*Formulario*/
+
+form{
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom:  5px;
+    color: #75badf;
+}
+
+input,[type="text"]
+textarea {
+    display: block;
+    width:  100%;
+    padding: 10px;
+    border: 2px solid #75badf;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btnFormulario{
+    background-color: black;
+    color: beige;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
